@@ -1,0 +1,14 @@
+server:
+  port: 5010
+spring:
+  application:
+    name: tal-experiment
+  aop:
+    proxy-target-class: true
+logging:
+  level:
+    com.alibaba.nacos: error
+    com.alibaba.cloud.nacos: error
+feign:
+  sentinel:
+    enabled: true

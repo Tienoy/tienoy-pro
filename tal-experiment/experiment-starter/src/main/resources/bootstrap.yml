@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        file-extension: yml
+  profiles:
+    active: dev
+logging:
+  path: /Users/tal/Log/tienoy-pro/

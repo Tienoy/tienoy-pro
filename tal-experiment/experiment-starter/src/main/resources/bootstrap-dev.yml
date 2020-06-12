@@ -1,0 +1,33 @@
+spring:
+  cloud:
+    sentinel:
+      transport:
+        port: 8729
+        dashboard: localhost:9080
+      datasource:
+        ds1:
+          nacos:
+            server-addr: 127.0.0.1:8877
+            data-id: share-pay-flow-rules
+            group-id: SENTINEL_GROUP
+            data-type: json
+            rule-type: flow
+            namespace: b0a08e67-6057-4754-8ec3-bef9b22ba75c
+      log:
+        dir: ${logging.path}
+    nacos:
+      server-addr: 127.0.0.1:8877
+      discovery:
+        group: TAL_CONFIG
+        namespace: b0a08e67-6057-4754-8ec3-bef9b22ba75c
+      config:
+        group: TAL_CONFIG
+        namespace: b0a08e67-6057-4754-8ec3-bef9b22ba75c
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+ribbon:
+  isolation:
+    enabled: true
