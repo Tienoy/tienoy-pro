@@ -88,6 +88,11 @@
             <artifactId>mybatis-plus-core</artifactId>
             <version>${mybatisp.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.tal</groupId>
+            <artifactId>base-ai</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>

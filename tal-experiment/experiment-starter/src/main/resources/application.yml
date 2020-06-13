@@ -2,7 +2,7 @@ server:
   port: 5010
 spring:
   application:
-    name: tal-experiment
+    name: experiment
   aop:
     proxy-target-class: true
 logging:
