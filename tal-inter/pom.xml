@@ -8,16 +8,14 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>tal-inter</artifactId>
     <packaging>pom</packaging>
-
     <modules>
-        <module>experiment-dto</module>
-        <module>experiment-service</module>
-        <module>experiment-starter</module>
+        <module>inter-dto</module>
+        <module>inter-service</module>
+        <module>inter-starter-iface</module>
     </modules>
-
-    <artifactId>tal-experiment</artifactId>
-
 
     <dependencies>
         <dependency>
@@ -99,5 +97,6 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
+
 
 </project>

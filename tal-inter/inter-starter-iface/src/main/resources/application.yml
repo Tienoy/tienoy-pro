@@ -1,0 +1,14 @@
+server:
+  port: 5020
+spring:
+  application:
+    name: inter
+  aop:
+    proxy-target-class: true
+logging:
+  level:
+    com.alibaba.nacos: error
+    com.alibaba.cloud.nacos: error
+feign:
+  sentinel:
+    enabled: true

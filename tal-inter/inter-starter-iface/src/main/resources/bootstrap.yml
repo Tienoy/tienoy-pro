@@ -6,4 +6,4 @@ spring:
   profiles:
     active: dev
 logging:
-  path: /Users/tal/Log/tienoy-pro/experiment/
+  path: /Users/tal/Log/tienoy-pro/inter/
