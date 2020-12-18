@@ -6,6 +6,7 @@
         <module>tal-experiment</module>
         <module>tal-base</module>
         <module>tal-inter</module>
+        <module>tal-pay</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
