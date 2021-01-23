@@ -23,6 +23,11 @@ spring:
       config:
         group: TAL_CONFIG
         namespace: b0a08e67-6057-4754-8ec3-bef9b22ba75c
+  zipkin:
+    base-url: http://127.0.0.1:9411
+  sleuth:
+    sampler:
+      probability: 1
 management:
   endpoints:
     web:
