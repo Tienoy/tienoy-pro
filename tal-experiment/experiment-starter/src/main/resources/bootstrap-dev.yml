@@ -3,7 +3,7 @@ spring:
     sentinel:
       transport:
         port: 8729
-        dashboard: localhost:9080
+        dashboard: localhost:8080
       datasource:
         ds1:
           nacos:

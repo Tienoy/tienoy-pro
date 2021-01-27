@@ -3,12 +3,12 @@ spring:
     sentinel:
       transport:
         port: 8729
-        dashboard: localhost:9080
+        dashboard: localhost:8080
       datasource:
         ds1:
           nacos:
             server-addr: 127.0.0.1:8877
-            data-id: share-pay-flow-rules
+            data-id: ${spring.application.name}-flow-rules
             group-id: SENTINEL_GROUP
             data-type: json
             rule-type: flow
